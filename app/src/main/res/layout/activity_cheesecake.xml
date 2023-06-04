@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CheesecakeActivity">
+
+    <VideoView
+        android:id="@+id/vv4"
+        android:layout_width="0dp"
+        android:layout_height="250dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Japanesee Cheseecake"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintVertical_bias="0.196"
+        android:id="@+id/ches"
+        app:layout_constraintTop_toBottomOf="@+id/vv4"/>
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="200 gram krem peynir,
+20 gram tereyağı (1, 5 yemek kaşığı yapıyor),
+50 gram süt (su bardağının 1/4’ü),
+40 gram un (3 yemek kaşığı – tepeleme),
+50 gram yumurta sarısı (2 orta boy yumurta sarısı),
+110 gram yumurta akı (3 orta boy yumurta akı),
+55 gram şeker (4 yemek kaşığı – tepeleme),
+Benmari için 40 °c sıcak su."
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ches"
+        app:layout_constraintVertical_bias="0.196" />
+</androidx.constraintlayout.widget.ConstraintLayout>

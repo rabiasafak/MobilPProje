@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".DessertActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvtatlibaslik"
+        android:text="TATLILAR"
+        android:layout_gravity="center"
+        android:gravity="center"
+        style="bold"
+        android:textSize="30sp"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:src="@drawable/tatli"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:backgroundTint="@color/white"
+        android:id="@+id/btntatli1"
+        android:text="Creme Brule"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:layout_width="match_parent"
+        android:backgroundTint="@color/white"
+        android:id="@+id/btntatli2"
+        android:text="Churros"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:layout_width="match_parent"
+        android:backgroundTint="@color/white"
+        android:text="Japanesee Cheesecake"
+        android:id="@+id/btntatli3"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:layout_width="match_parent"
+        android:backgroundTint="@color/white"
+        android:text="Chocolate Donut"
+        android:id="@+id/btntatli4"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:layout_width="match_parent"
+        android:backgroundTint="@color/white"
+        android:id="@+id/btntatli5"
+        android:text="Türk Lokumu"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:layout_width="match_parent"
+        android:backgroundTint="@color/white"
+        android:text="Tiramisu"
+        android:id="@+id/btntatli6"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:layout_width="match_parent"
+        android:backgroundTint="@color/white"
+        android:text="Vanilla Cupcakes"
+        android:id="@+id/btntatli7"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:layout_width="match_parent"
+        android:backgroundTint="@color/white"
+        android:text="Oreo Dorayaki"
+        android:id="@+id/btntatli8"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:layout_width="match_parent"
+        android:backgroundTint="@color/white"
+        android:text="Eclair"
+        android:id="@+id/btntatli9"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:src="@drawable/tatli2"/>
+
+
+
+
+
+</LinearLayout>

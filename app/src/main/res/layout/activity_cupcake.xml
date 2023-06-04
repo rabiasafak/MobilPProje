@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CupcakeActivity">
+
+    <VideoView
+        android:id="@+id/vv20"
+        android:layout_width="0dp"
+        android:layout_height="256dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vanilla Cupcakes"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintVertical_bias="0.196"
+        android:id="@+id/ygh"
+        app:layout_constraintTop_toBottomOf="@+id/vv20"/>
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4 adet oda sıcaklığında yumurta,
+1 su bardağı toz şeker (Bardak ölçüsü 200ml),
+1 su bardağı sıvı yağ,
+Yarım su bardağı soğuk süt,
+1 paket vanilin,
+1 paket kabartma tozu (Dr. Oetker},
+2 su bardağı un,
+Silikon cupcakes kalıbı ve kağıtları."
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ygh"
+        app:layout_constraintVertical_bias="0.196" />
+</androidx.constraintlayout.widget.ConstraintLayout>

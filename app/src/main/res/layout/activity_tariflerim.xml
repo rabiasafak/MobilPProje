@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:layout_margin="10dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tarif Giriniz"
+        android:id="@+id/text"
+        android:textSize="26dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/black"
+        android:layout_marginTop="30dp"
+        android:gravity="center_horizontal"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="İsmi Girin"
+        android:textSize="20dp"
+        android:layout_below="@+id/text"
+        android:layout_marginTop="20dp"
+        android:id="@+id/name"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:hint="Tarif Girin"
+        android:textSize="20dp"
+        android:layout_below="@+id/name"
+        android:layout_marginTop="20dp"
+        android:id="@+id/tarif"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btninsert"
+        android:layout_below="@+id/tarif"
+        android:layout_marginTop="20dp"
+        android:text="Kaydet"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnview"
+        android:layout_below="@+id/btninsert"
+        android:layout_marginTop="20dp"
+        android:text="Tarifleri Görüntüle"/>
+
+</RelativeLayout>

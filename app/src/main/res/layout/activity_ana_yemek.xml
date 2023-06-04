@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".AnaYemekActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvyemekbaslik"
+        android:text="ANA YEMEKLER"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        style="bold"
+        android:textSize="30sp"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:backgroundTint="@color/white"
+        android:id="@+id/btnyemek1"
+        android:layout_marginTop="10dp"
+        android:text="Ratatouille"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:layout_width="match_parent"
+        android:backgroundTint="@color/white"
+        android:id="@+id/btnyemek2"
+        android:text="Köri Soslu Kremalı Tavuk"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:layout_width="match_parent"
+        android:backgroundTint="@color/white"
+        android:text="Tas Kebabı"
+        android:id="@+id/btnyemek3"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:layout_width="match_parent"
+        android:backgroundTint="@color/white"
+        android:text="Hasanpaşa Köfte"
+        android:id="@+id/btnyemek4"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:layout_width="match_parent"
+        android:backgroundTint="@color/white"
+        android:id="@+id/btnyemek5"
+        android:text="Pelmeni"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:layout_width="match_parent"
+        android:backgroundTint="@color/white"
+        android:text="Osso Buco"
+        android:id="@+id/btnyemek6"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:backgroundTint="@color/white"
+        android:text="Gnocci"
+        android:id="@+id/btnyemek7"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:layout_width="match_parent"
+        android:backgroundTint="@color/white"
+        android:text="Ballı Susamlı Tavuk"
+        android:id="@+id/btnyemek8"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/anayemek"/>
+
+
+
+
+
+</LinearLayout>
